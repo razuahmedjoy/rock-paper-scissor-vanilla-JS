@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <title>Rock Paper Scissor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section>
+    <div class="container mt-4">
+      <h2 class="h2">Welcome to Rock Paper Scissor Game</h2>
+    </div>
+
+    <div class="container mt-4 mb-1 point-area">
+      <div class="points border">
+        <span class="user-point">0</span>
+        <span class="point-bar">|</span>
+        <span class="comp-point">0</span>
+        <span class="badge user-badge">User</span>
+        <span class="badge comp-badge">Computer</span>
+
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <span class=""> <i class="choices fas fa-hand-rock" id="r"></i></span>
+          <p class="text-light">Rock</p>
+        </div>
+        <div class="col-4">
+          <span class=""> <i class="choices fas fa-hand-paper" id="p"></i></i></span>
+          <p class="text-light">Paper</p>
+
+        </div>
+        <div class="col-4">
+          <span class=""> <i class="choices fas fa-hand-scissors" id="s"></i></span>
+          <p class="text-light">Scissor</p>
+
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+    <div class="container">
+      <div id="result-box">
+        <div class="row">
+          <div class="col-6 user-choice text-center">
+            You choosed: <br>
+            <i class="user fas"></i>
+
+
+          </div>
+          <div class="col-6 text-center computer-choice">
+            Computer: <br>
+            <i class="comp fas"></i>
+
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col-12 text-center">
+            <span class="verdict-text"> You win! </span><br>
+            <i class="emoji fas fa-smile"></i>
+            <br>
+            <span>Try Again</span>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer class="footer text-light">
+    <p class="text-center">Developed by <a class="text-light" href="#">Razu Ahmed joy</a> </p>
+    <p class="pause-audio text-right text-light pull-right">Stop Audio</p>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <!-- Custom javascript by me for the app -->
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
